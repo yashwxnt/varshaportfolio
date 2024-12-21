@@ -28,27 +28,17 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
-          <br className="sm:block hidden" />
-          Let&apos;s collaborate to bring your ideas to life!
+          Hello! I&apos;m Varsha Yalaka, currently pursuing my Master&apos;s in Information Technology at the University of Cincinnati. With a B.Tech in Computer Science from GITAM University, Hyderabad, I bring a strong background in software development, machine learning, and data processing. My experience includes developing projects like an Intrusion Detection System and a Rubik&apos;s Cube Solver, leveraging skills in Python, clustering algorithms, and image processing. I&apos;ve also interned with Think AI Labs and The Sparks Foundation, where I gained hands-on experience in dynamic web development and payment gateway integration. I&apos;m excited to collaborate and bring innovative ideas to life!
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:shivamsharma77607@gmail.com"
+            href="mailto:yalak.varsha@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+            yalak.varsha@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +54,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="document/Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

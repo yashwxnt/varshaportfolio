@@ -50,10 +50,6 @@ const services = [
     icon: <ProblemSolvingIcon />,
   },
   {
-    title: "Freelancer",
-    icon: <FreelancerIcon />,
-  },
-  {
     title: "Leadership",
     icon: <LeaderShipIcon />,
   },
@@ -82,25 +78,11 @@ const technologies = {
       link: "https://www.typescriptlang.org/",
     },
     {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
-    },
-    {
       name: "Java",
       icon: "/assets/tech/java.svg",
       link: "https://www.java.com/en/",
     },
-    {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
-    },
-    {
-      name: "PHP",
-      icon: "/assets/tech/php.png",
-      link: "https://www.php.net/",
-    },
+   
   ],
   frameworks: [
     {
@@ -117,12 +99,7 @@ const technologies = {
       name: "Express.js",
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
-    },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
+    }
   ],
   libraries: [
     {
@@ -149,12 +126,7 @@ const technologies = {
       name: "NextAuth.js",
       icon: "/assets/tech/nextauthjs.png",
       link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+    }
   ],
   tools: [
     {
@@ -171,17 +143,7 @@ const technologies = {
       name: "Postman",
       icon: "/assets/tech/postman.svg",
       link: "https://www.postman.com/",
-    },
-    {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
-    {
-      name: "Docker",
-      icon: "/assets/tech/docker.svg",
-      link: "https://www.docker.com/",
-    },
+    }
   ],
   environments: [
     {
@@ -211,42 +173,80 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Tech Lead at GDSC MVJCE",
-    icon: "/assets/company/gdsc-logo.svg",
+    title: "Software Developer Intern",
+    company_name: "Think AI Labs",
+    icon: "/assets/company/think-ai-labs.svg",
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "June 2022 - August 2022",
     points: [
-      "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-      "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-      "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-      "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
+      "Developed an automated web form generator with dynamic webpages, utilizing image processing techniques with OpenCV and Tesseract for data extraction.",
+      "Simultaneously pursued a Machine Learning course, expanding knowledge in key algorithms and data handling techniques.",
     ],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
+    title: "Web Development Intern",
+    company_name: "The Sparks Foundation",
+    icon: "/assets/company/sparks-foundation.svg",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "July 2021 - August 2021",
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Created a web page with payment gateway integration using JavaScript, HTML, and CSS, providing seamless user experiences for online payments.",
+      "Implemented MongoDB for stateless data storage and utilized Postman for API testing and server communication.",
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Tech team member at GDSC MVJCE",
-    icon: "/assets/company/gdsc-logo.svg",
+    title: "Secretary",
+    company_name: "Engineers Without Borders (EWB) - GITAM",
+    icon: "/assets/company/ewb-gitam.svg",
     iconBg: "#E6DEDD",
-    date: "February 2022 - July 2023",
+    date: "June 2019 - June 2022",
     points: [
-      "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-      "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-      "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-      "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
+      "Led a project to design and implement a water distribution system for a rural community in Warangal, conducting site visits and collaborating with local engineers.",
+      "Coordinated EWB awareness events on campus to promote the organization’s mission, effectively attracting and onboarding new members.",
+    ],
+  },
+  {
+    title: "Leadership Fellow",
+    company_name: "KECTIL Leadership Program",
+    icon: "/assets/company/kectil.svg",
+    iconBg: "#E6DEDD",
+    date: "February 2023 - Present",
+    points: [
+      "Selected as one of 200 global fellows, participating in leadership training focused on social rights and cultural improvement.",
+      "Conducted extensive research on Indian social rights and proposed actionable measures to enhance community welfare.",
+    ],
+  },
+  {
+    title: "Campus Ambassador",
+    company_name: "Indian School of Business",
+    icon: "/assets/company/isb.svg",
+    iconBg: "#E6DEDD",
+    date: "January 2023 - March 2023",
+    points: [
+      "Represented the ISB Young Leaders Program, highlighting program benefits and providing guidance on admissions.",
+      "Successfully assisted in the enrollment of 27 students, demonstrating effective outreach and promotional skills.",
+    ],
+  },
+  {
+    title: "Environmental Volunteer",
+    company_name: "Local Environmental Initiatives",
+    icon: "/assets/company/environmental-initiative.svg",
+    iconBg: "#E6DEDD",
+    date: "June 2021 - January 2022",
+    points: [
+      "Engaged in park clean-up efforts and maintenance, including litter collection and landscaping tasks.",
+      "Participated in tree-planting activities, contributing to local environmental improvement and sustainability.",
+    ],
+  },
+  {
+    title: "Participant",
+    company_name: "Accenture Innovation Challenge",
+    icon: "/assets/company/accenture.svg",
+    iconBg: "#E6DEDD",
+    date: "June 2021 - November 2021",
+    points: [
+      "Competed as an individual contestant, reaching the semi-finals with a project proposal for a 'SMART SEWAGE SYSTEM.'",
+      "Received a special mention for the project's ideation and gained an opportunity to interview at Accenture.",
     ],
   },
 ];
@@ -280,189 +280,98 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FigPro",
+    name: "Rubik’s Cube Solver",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "A Python-based project that uses image processing and the Kociemba algorithm to solve a Rubik’s Cube by detecting colors and providing optimized moves. Developed with libraries like NumPy, Pandas, and OpenCV for preprocessing and solution generation.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "NumPy", color: "green-text-gradient" },
+      { name: "Pandas", color: "pink-text-gradient" },
+      { name: "OpenCV", color: "orange-text-gradient" },
+      { name: "Kociemba Algorithm", color: "yellow-text-gradient" },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/rubiks-cube-solver.png",
+    source_code_link: "https://github.com/yourusername/rubiks-cube-solver",
+    deployed_link: "",
   },
   {
-    name: "GDSC Website",
+    name: "Intrusion Detection System",
     description:
-      "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+      "An intrusion detection system developed using weighted classifiers and selection algorithms. This project classifies attack types based on user inputs and integrates a user interface. Built with Python, it utilizes the CFS DE-algorithm and classifiers like SVM, Random Forest, KNN, and MLP.",
     tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "green-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "yellow-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "CFS DE-algorithm", color: "green-text-gradient" },
+      { name: "SVM", color: "pink-text-gradient" },
+      { name: "Random Forest", color: "orange-text-gradient" },
+      { name: "KNN", color: "yellow-text-gradient" },
+      { name: "MLP", color: "purple-text-gradient" },
     ],
-    image: "/assets/projects/gdsc-website.png",
-    source_code_link: "https://github.com/GDSC-MVJCE/gdscmvjce-website.git",
-    deployed_link: "https://gdscmvjce.vercel.app/",
+    image: "/assets/projects/intrusion-detection-system.png",
+    source_code_link: "https://github.com/yourusername/intrusion-detection-system",
+    deployed_link: "",
   },
   {
-    name: "Facility Management System",
+    name: "Mall Customer Segmentation",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "A customer segmentation project aimed at identifying distinct customer groups within a supermarket environment. Utilized Python and clustering algorithms to analyze customer data and produce actionable insights for targeted marketing.",
     tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Clustering", color: "green-text-gradient" },
+      { name: "Data Analysis", color: "pink-text-gradient" },
     ],
-    image: "/assets/projects/facility-manager.png",
-    source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+    image: "/assets/projects/mall-customer-segmentation.png",
+    source_code_link: "https://github.com/yourusername/mall-customer-segmentation",
+    deployed_link: "",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
+  {
+    name: "FinancialXplore",
+    description:
+      "A web-based platform for financial education that provides interactive tools and resources, including quizzes and personalized dashboards, to enhance user learning and engagement. Built using Angular, Node.js, Express.js, and MongoDB.",
+    tags: [
+      { name: "Angular", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "Express.js", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "orange-text-gradient" },
+    ],
+    image: "/assets/projects/financialxplore.png",
+    source_code_link: "https://github.com/yourusername/financialxplore",
+    deployed_link: "",
+  },
+  {
+    name: "Music Streaming Website - Melody Master",
+    description:
+      "A music streaming platform developed with Angular, featuring integration with the Spotify API. This platform includes personalized features like playlist creation and tailored music recommendations for users.",
+    tags: [
+      { name: "Angular", color: "blue-text-gradient" },
+      { name: "Spotify API", color: "green-text-gradient" },
+      { name: "Web Development", color: "pink-text-gradient" },
+    ],
+    image: "/assets/projects/melody-master.png",
+    source_code_link: "https://github.com/yourusername/melody-master",
+    deployed_link: "",
+  },
 ];
 
 const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://twitter.com/",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/",
   },
 ];
 
