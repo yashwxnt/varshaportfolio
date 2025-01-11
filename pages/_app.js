@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
 				<meta property="twitter:title" content={title} />
 				<meta property="twitter:description" content={description} />
 
-				<link rel="canonical" href={url} />
+				{/* <link rel="canonical" href={url} />
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
@@ -71,7 +71,7 @@ export default function App({ Component, pageProps }) {
 				<link
 					rel="manifest"
 					href="/assets/icons/favicon/site.webmanifest"
-				/>
+				/> */}
 			</Head>
 
 			<ThemeProvider attribute="class" defaultTheme="dark">
